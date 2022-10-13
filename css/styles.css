@@ -1,0 +1,51 @@
+body {
+	background-color: #E0E8FF;
+	margin: 0;
+	text-align: center;
+	font-family: 'Red Hat Display', sans-serif;
+}
+p {
+	
+	font-size: 16px;
+}
+h3 {
+	
+	font-size: 7px;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+  width: 30%;
+  position: absolute;
+  left: 35%;
+  height: 97%;
+  margin-top: 5%;
+  border-radius: 25px 25px;
+  margin-bottom: 5%;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+  border-radius: 25px;
+}
+
+.plan-row {
+	margin-top: 15%;
+	width: 50%;
+	text-align: left;
+
+
+}
+.icon {
+	width: 25%;
+	float: left;
+	margin-right: 30px;
+}
